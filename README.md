@@ -1,6 +1,6 @@
 # R's internal C API
 
-RCAPI is an example package to examplain how you can write a C function and call it from R.
+RCAPI is an example package to explain how you can write a C function and call it from R.
 
 You can do the same for a new {mypackage} or whatever R packge name you want.
 
