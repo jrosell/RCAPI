@@ -17,6 +17,6 @@ add_one <- function(a) {
     stop("`a` must be a single numeric value.", call. = FALSE)
   }
 
-  .Call(RCAPI_add_one, a)
+  .Call(RCAPI_add_one, a) # Please, use mypackage_add_one not RCAPI_add_one
 }
 
