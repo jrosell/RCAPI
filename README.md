@@ -38,7 +38,7 @@ pkgbuild::compile_dll(force = TRUE, register_routines = TRUE)
 add_one(1)
 ```
 
-If you want, you can look how I did this myself in [src/RCAPI.c](src/RCAPI.c) and [R/add.R](R/add.R) myself.
+If you want, you can look how I did this in [src/RCAPI.c](src/RCAPI.c) and [R/add.R](R/add.R) myself.
 
 To document the package and check if it's is working well, run:
 
